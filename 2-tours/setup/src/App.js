@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
+const url = 'https://course-api.com/react-tours-project';
 
 function App() {
-  return <main>This is Tour Project</main>;
+  return <h2>Tours Project Setup</h2>;
 }
 
 export default App;
